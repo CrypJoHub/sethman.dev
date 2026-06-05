@@ -1,0 +1,39 @@
+{
+  "name": "v0-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrypJoHub/sethman.dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/CrypJoHub/sethman.dev/issues"
+  },
+  "homepage": "https://github.com/CrypJoHub/sethman.dev#readme",
+  "dependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.16",
+    "next": "^16.2.7",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "autoprefixer": "^10.5.0",
+    "phosphor-react": "^1.4.1",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
+  }
+}
