@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next'
+import Script from 'next/script'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -25,10 +26,10 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <script src="https://unpkg.com/@phosphor-icons/web"></script>
       </head>
       <body className="bg-bg text-textDark font-sans antialiased selection:bg-accent selection:text-white overflow-x-hidden">
         {children}
+        <Script src="https://unpkg.com/@phosphor-icons/web" strategy="afterInteractive" />
       </body>
     </html>
   )
