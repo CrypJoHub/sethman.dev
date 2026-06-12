@@ -30,10 +30,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div 
-            className="flex-shrink-0 cursor-pointer group logo-text text-3xl"
+            className="flex-shrink-0 cursor-pointer group logo-text text-2xl font-bold"
             onClick={scrollToTop}
           >
-            Sethman<span className="text-textMed text-2xl">.Dev</span>
+            Sethman.Dev
           </div>
 
           <div className="hidden md:block">
